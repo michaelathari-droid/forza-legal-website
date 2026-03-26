@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Forza Legal Defense, PC</title>
+  <meta name="description" content="Learn about Forza Legal Defense, PC — our founding attorney's background, experience, and commitment to aggressive criminal defense in California." />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .page-hero {
+      background: var(--navy-dark);
+      padding: 7rem 0 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(90deg, rgba(201,168,76,0.03) 0 1px, transparent 1px 80px);
+    }
+    .page-hero-inner { position: relative; z-index: 1; }
+    .page-hero-eyebrow {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .page-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 1rem;
+    }
+    .page-hero p { color: rgba(255,255,255,0.6); max-width: 600px; font-size: 0.95rem; }
+    .breadcrumb { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 1.5rem; font-size: 0.75rem; color: rgba(255,255,255,0.4); }
+    .breadcrumb a { color: var(--gold); transition: color var(--transition); }
+    .breadcrumb a:hover { color: var(--white); }
+    .breadcrumb span { opacity: 0.4; }
+
+    /* About content */
+    .about-section { padding: 7rem 0; background: var(--off-white); }
+    .about-values { padding: 7rem 0; background: var(--navy); }
+    .values-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 2rem; margin-top: 3rem; }
+    .value-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(201,168,76,0.15);
+      padding: 2.5rem 2rem;
+      border-radius: 2px;
+      text-align: center;
+      transition: border-color var(--transition);
+    }
+    .value-card:hover { border-color: var(--gold); }
+    .value-icon { font-size: 2.5rem; margin-bottom: 1.2rem; }
+    .value-card h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; color: var(--white); margin-bottom: 0.75rem; }
+    .value-card p { font-size: 0.82rem; color: rgba(255,255,255,0.55); line-height: 1.8; }
+    @media (max-width: 768px) { .values-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left"><i class="fas fa-map-marker-alt" style="color:var(--gold);margin-right:.35rem;"></i>Serving Inland Empire, Los Angeles &amp; San Bernardino Counties</div>
+      <div class="top-bar-right">
+        <a href="mailto:info@forzalegaldefense.com"><i class="fas fa-envelope"></i> info@forzalegaldefense.com</a>
+        <a href="tel:+19095550100" class="phone-cta"><i class="fas fa-phone"></i> (909) 555-0100</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <div class="nav-inner">
+        <a href="../index.html" class="logo">
+          <span class="logo-firm">FORZA <span class="logo-accent">LEGAL</span> DEFENSE</span>
+          <span class="logo-tagline">PC &nbsp;·&nbsp; Criminal Defense &amp; DUI</span>
+        </a>
+        <ul id="nav-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="practice-areas.html">Practice Areas</a></li>
+          <li><a href="dui-defense.html">DUI Defense</a></li>
+          <li><a href="criminal-defense.html">Criminal Defense</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn-gold">Free Consultation</a>
+        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container page-hero-inner">
+      <div class="breadcrumb">
+        <a href="../index.html">Home</a><span>/</span><span>About</span>
+      </div>
+      <div class="page-hero-eyebrow">Our Firm</div>
+      <h1>About Forza Legal Defense, PC</h1>
+      <div class="gold-divider"></div>
+      <p>A results-driven criminal defense firm built on the principle that every person — regardless of what they're charged with — deserves the most aggressive legal defense possible.</p>
+    </div>
+  </section>
+
+  <!-- ATTORNEY FULL BIO -->
+  <section class="attorney-section" style="background:var(--off-white);">
+    <div class="container">
+      <div class="attorney-grid">
+        <div>
+          <div class="attorney-photo-wrap">
+            <img src="../images/attorney-headshot.jpg" alt="Lead Attorney — Forza Legal Defense, PC" />
+            <div class="attorney-photo-accent"></div>
+          </div>
+          <div class="attorney-credentials" style="margin-top:1.5rem;">
+            <span class="credential-badge">State Bar of California</span>
+            <span class="credential-badge">AVVO Rated</span>
+            <span class="credential-badge">Trial Advocacy</span>
+            <span class="credential-badge">Former Prosecutor</span>
+            <span class="credential-badge">DUI Defense Specialist</span>
+          </div>
+        </div>
+        <div class="attorney-content">
+          <span class="section-label">Lead Attorney</span>
+          <div class="attorney-name">[Attorney Name]</div>
+          <div class="attorney-title-text">Founding Attorney — Forza Legal Defense, PC</div>
+          <div class="gold-divider"></div>
+          <p>
+            [Attorney Name] founded Forza Legal Defense, PC with a singular mission: to provide 
+            the citizens of the Inland Empire with a level of criminal defense that is fearless, 
+            relentless, and uncompromising. Having spent years as a prosecutor before crossing to 
+            the defense side, [he/she] brings a rare dual perspective to every courtroom battle.
+          </p>
+          <p>
+            As a former [insert prosecutorial role], [Attorney Name] personally handled hundreds 
+            of felony and misdemeanor cases, gaining deep insight into how law enforcement 
+            investigates, how prosecutors build their cases, and — most importantly — where 
+            those cases fall apart. That knowledge now exclusively serves the defense.
+          </p>
+          <p>
+            [He/She] is licensed to practice law throughout California and has successfully 
+            represented clients facing DUI charges, drug offenses, domestic violence allegations, 
+            assault, weapons charges, theft crimes, and more — in both Inland Empire courts 
+            and Los Angeles County.
+          </p>
+          <div class="attorney-stats">
+            <div class="attorney-stat"><strong>500+</strong><span>Cases Handled</span></div>
+            <div class="attorney-stat"><strong>15+</strong><span>Years Experience</span></div>
+            <div class="attorney-stat"><strong>5.0</strong><span>AVVO Rating</span></div>
+          </div>
+          <a href="contact.html" class="btn btn-gold">Schedule Free Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIRM VALUES -->
+  <section class="about-values">
+    <div class="container">
+      <span class="section-label">Our Philosophy</span>
+      <h2 class="section-title light">Built on Three Pillars</h2>
+      <div class="gold-divider"></div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">⚔️</div>
+          <h3>Aggressive Defense</h3>
+          <p>We don't accept the prosecution's narrative. We challenge every piece of evidence, every witness, and every procedure — demanding the highest standard of proof.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🎯</div>
+          <h3>Strategic Precision</h3>
+          <p>Great defense isn't just aggression — it's intelligent strategy. We study your case from every angle and build a defense tailored to your specific facts and charges.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🤝</div>
+          <h3>Client-First Communication</h3>
+          <p>You will always know where your case stands. We are accessible, responsive, and direct. You speak to your attorney — not a receptionist — when you need answers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <div class="cta-band">
+    <div class="container">
+      <h2>Ready to Fight for Your Freedom?</h2>
+      <p>Call us now or fill out our form for a confidential, free case review. We're available 24/7.</p>
+      <div class="btn-group">
+        <a href="contact.html" class="btn btn-navy">Free Consultation</a>
+        <a href="tel:+19095550100" class="btn" style="background:transparent;border:2px solid var(--navy-dark);color:var(--navy-dark);font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:1rem 2.2rem;border-radius:2px;"><i class="fas fa-phone" style="margin-right:.5rem;"></i> (909) 555-0100</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER (shared) -->
+  <footer>
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="logo-firm">FORZA <span class="logo-accent">LEGAL</span> DEFENSE</div>
+          <div class="logo-tagline">PC &nbsp;·&nbsp; Criminal Defense &amp; DUI</div>
+          <p>Providing aggressive, strategic criminal defense throughout the Inland Empire, Los Angeles, and San Bernardino Counties.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Practice Areas</h4>
+          <ul>
+            <li><a href="dui-defense.html">DUI / DWI Defense</a></li>
+            <li><a href="criminal-defense.html">Criminal Defense</a></li>
+            <li><a href="practice-areas.html">Drug Charges</a></li>
+            <li><a href="practice-areas.html">Domestic Violence</a></li>
+            <li><a href="practice-areas.html">Assault &amp; Battery</a></li>
+            <li><a href="practice-areas.html">Expungements</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Firm</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Free Consultation</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li style="color:rgba(255,255,255,0.5);font-size:.82rem;margin-bottom:.5rem;"><i class="fas fa-phone" style="color:var(--gold);margin-right:.5rem;"></i><a href="tel:+19095550100" style="color:rgba(255,255,255,0.7);">(909) 555-0100</a></li>
+            <li style="color:rgba(255,255,255,0.5);font-size:.82rem;margin-bottom:.5rem;"><i class="fas fa-envelope" style="color:var(--gold);margin-right:.5rem;"></i><a href="mailto:info@forzalegaldefense.com" style="color:rgba(255,255,255,0.7);">info@forzalegaldefense.com</a></li>
+            <li style="color:rgba(255,255,255,0.5);font-size:.82rem;"><i class="fas fa-clock" style="color:var(--gold);margin-right:.5rem;"></i>24/7 Emergency Line</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Forza Legal Defense, PC. All Rights Reserved.</p>
+        <p>Serving: Riverside County · San Bernardino County · Los Angeles County</p>
+      </div>
+      <div class="footer-disclaimer">
+        <p>The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice. Prior results do not guarantee a similar outcome. Forza Legal Defense, PC is licensed to practice law in the State of California.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
